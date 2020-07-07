@@ -1,0 +1,81 @@
+		#ii{
+			
+  width: 100%;
+  height: auto;
+			transition: all 1.5s ease;
+			float: center;
+		}
+		.in{
+			overflow: hidden;
+			height: 600px;
+		}
+		#ii:hover {
+			
+			transform: scale(1.5);
+		}
+				.in:hover {
+			transition: 1.5s ease;
+			opacity: 0.7;
+		}
+		.jumbotron{
+			background-image: url("https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80");
+			background-repeat: no-repeat;
+			background-size: cover;
+			height: 50vh; 
+
+		}
+		.jumbotron h1{
+			padding-top: 20px;
+			color: white;
+		}
+		.jumbotron h2{
+			color: white;
+		}
+		.mybuttonoverlap{
+			position: absolute;
+		    z-index: 2;
+		    top: 500px;
+		    display: none;
+		    left: 450px;	
+		}		
+		.in:hover .mybuttonoverlap{ 
+			display:block;
+		}
+		#home{
+			width: 40px;
+			height: 40px;
+		}
+		#home:hover{
+			background-color: white;
+		}
+				.con{
+			opacity:0;
+		}
+		#crd{
+			height: 300px;
+		}
+.nav-item{
+  margin-right: 50px;
+  margin-left: 5px;
+}
+.nav-item:hover{
+  background-color: gray;
+  transition: 0.5s;
+}
+#UCMS{
+	height: auto;
+}
+.myprojects{
+	height: 800px;
+	background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(130, 130, 130));
+}
+
+.container{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+#ss{
+	padding-left: 500px;
+	padding-top: 100px;
+}

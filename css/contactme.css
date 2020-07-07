@@ -1,0 +1,39 @@
+
+.nav-item{
+  margin-right: 50px;
+  margin-left: 5px;
+}
+.nav-item:hover{
+  background-color: gray;
+  transition: 0.5s;
+}
+.por{
+	height: 100%;
+	width: 100%;
+
+}
+.jumbotron{
+	background-image: url("../portrait.jpg");
+	background-size: cover;
+  	height: 100vh;
+  	transition: 0.5s;
+  	opacity:0;
+}
+.jumbotron h1{
+	float: right;
+	color: white;
+}
+.jumbotron h4{
+	margin-top: 20px;
+	color: white;
+}
+.social{
+	float: right;
+	padding: 100px;
+	padding-left: 200px;
+}
+#ic{
+	margin-right: 20px;
+	height: 50px;
+	width: 50px;
+}

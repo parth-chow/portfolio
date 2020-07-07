@@ -1,0 +1,58 @@
+		.jumbotron{
+			background-image: url("https://images.unsplash.com/photo-1501991454513-48979334f1a0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
+			background-repeat: no-repeat;
+			background-position: center;			
+			background-size: cover;
+			height: 50vh;
+		}
+		h1{
+			padding-top: 50px;
+			text-align: left;
+			color: white;
+			text-shadow: 5px 5px 5px #555;
+			
+		}
+		.newcon{
+			background-color: #0001;
+			opacity: 1;
+		}
+		.far h5{
+			margin-top: 50px;
+		}
+		hr{
+			margin-top: 60px;
+		}
+		#second{
+			margin-top: 5px;
+		}
+		.btn-md{
+			background-color: gray;
+		}
+		.icon{
+			width: 100px;
+			height: 100px;
+		}
+		.con{
+			opacity:0;
+			background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(130, 130, 130));
+		}
+		#home{
+			width: 40px;
+			height: 40px;
+		}
+		#home:hover{
+			background-color: white;
+		}			
+
+.nav-item{
+  margin-right: 50px;
+  margin-left: 5px;
+}
+.nav-item:hover{
+  background-color: gray;
+  transition: 0.5s;
+}
+.cardtitle{
+	color: black;
+	text-decoration: underline;
+}

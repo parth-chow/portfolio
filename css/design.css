@@ -1,5 +1,5 @@
 .jumbotron{
-  background-image: url(../cover.png);
+  background-image: url(../cv.png);
   background-size: cover;
   height: 100vh;
   transition: 0.5s;
@@ -13,6 +13,11 @@
 .nav-item:hover{
   background-color: gray;
   transition: 0.5s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+.nav-link:hover {
+color: rgb(220, 222, 224) !important;
 }
 .nav{
   background-color: #0001;
@@ -25,7 +30,7 @@
   transition: 0.5s;
 }
 #main{
-  background-image: url(../cover.png);
+  
   background-size: cover;
   height: 645px;
     transition: 0.5s;

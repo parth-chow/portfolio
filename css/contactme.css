@@ -6,6 +6,11 @@
 .nav-item:hover{
   background-color: gray;
   transition: 0.5s;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+.nav-link:hover {
+color: rgb(220, 222, 224) !important;
 }
 .por{
 	height: 100%;
@@ -13,7 +18,7 @@
 
 }
 .jumbotron{
-	background-image: url("../portrait.jpg");
+	background-image: url("../por.jpg");
 	background-size: cover;
   	height: 100vh;
   	transition: 0.5s;
@@ -36,4 +41,10 @@
 	margin-right: 20px;
 	height: 50px;
 	width: 50px;
+	transition: 0.5s;
+  	
+}
+#ic:hover{
+  transition: 0.5s;
+  transform: scale(1.5);
 }
